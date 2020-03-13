@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyblue"
+    tools:context=".LanguageSelectActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        >
+        <!-- The primary full-screen view. This can be replaced with whatever view
+             is needed to present your content, e.g. VideoView, SurfaceView,
+             TextureView, etc. -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="24dp"
+            >
+            <!--        <FrameLayout-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:id="@+id/fullscreen_content"-->
+            <!--            android:padding="20dp"/>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Your Language"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:drawableTop="@drawable/adventist"
+                android:drawablePadding="40dp"
+                android:textColor="@color/white"
+                android:drawableTint="@color/white"
+                android:textSize="21sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sarudza mutauro"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:drawablePadding="40dp"
+                android:textColor="@color/white"
+                android:drawableTint="@color/white"
+                android:textAlignment="center"
+                android:textSize="21sp"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="15dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!--                <TextView-->
+                    <!--                    android:layout_width="0dp"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:layout_weight="1.5"-->
+                    <!--                    android:text="Email Address"-->
+                    <!--                    android:textColor="@color/white"/>-->
+
+                    <!--                <EditText-->
+                    <!--                    android:id="@+id/edt_email_feedback"-->
+                    <!--                    android:layout_width="0dp"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:ems="10"-->
+                    <!--                    android:inputType="textEmailAddress"-->
+                    <!--                    android:layout_weight="3"-->
+                    <!--                    android:hint="example@email.com"-->
+                    <!--                    android:textColor="@color/white"/>-->
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <LinearLayout
+                    android:id="@+id/fullscreen_content_controls"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingTop="50dp"
+                    tools:ignore="UselessParent">
+
+                    <Button
+                        android:id="@+id/btn_eng"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="English"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimary"/>
+                    <View
+                        android:layout_width="7dp"
+                        android:layout_height="match_parent"/>
+                    <Button
+                        android:id="@+id/btn_shona"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Shona"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimary"/>
+
+
+
+                </LinearLayout>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </LinearLayout>
+    </ScrollView>
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+
+        >
+
+
+
+    </FrameLayout>
+
+</FrameLayout>

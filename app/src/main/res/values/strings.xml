@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Camp Meeting 2020</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="feedback">Feedback</string>
+    <string name="lessons">Lessons</string>
+    <string name="lesson_list">Lesson List</string>
+    <string name="introduction">Introduction</string>
+    <string name="lesson_title">Lesson Title</string>
+    <string name="hear">We would love to hear from you</string>
+    <string name="fullname">Full Name</string>
+    <string name="Home">Home</string>
+    <string name="enter_feeback">Please enter your feedback</string>
+    <string name="navigation_drawer_open">Open naviagtion drawer</string>
+    <string name="navigation_drawer_close">Close naviagtion drawer</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="about_us">
+        <b>Lead Programmer:</b> Greg Maurice<br></br>
+        <b>Framework Design:</b> Ncekuyenkosi Moyo<br></br>
+        <b>Project Executive:</b> Epiphania Daniel<br></br>
+        <b>Project Executive:</b> Loise Magama<br></br>
+        <b>Project Coodination:</b> NZC IT Department<br></br>
+    </string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+    <string name="settings">Settings</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
