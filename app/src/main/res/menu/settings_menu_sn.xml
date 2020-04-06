@@ -9,20 +9,20 @@
         android:title=""
         android:icon="@drawable/ic_settings_white">
         <menu>
-    <item android:id="@+id/intro_menu"
+    <item android:id="@+id/intro_menu_sn"
         android:icon="@drawable/ic_into"
         android:title="@string/introduction"
         />
 
-    <item android:id="@+id/lessons_menu"
+    <item android:id="@+id/lessons_menu_sn"
         android:icon="@drawable/ic_lesson"
         android:title="@string/lessons"/>
 
-    <item android:id="@+id/feedback_menu"
+    <item android:id="@+id/feedback_menu_sn"
         android:icon="@drawable/ic_feedback"
         android:title="@string/feedback"/>
 
-    <item android:id="@+id/language_menu"
+    <item android:id="@+id/language_menu_sn"
         android:icon="@drawable/ic_settings_black"
         android:title="Language"
         android:iconTint="@android:color/black"/>
