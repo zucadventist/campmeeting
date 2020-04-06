@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/greg/Documents/GitHub/campmeeting/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml",
+            "map": [
+                {
+                    "source": "/Users/greg/.gradle/caches/transforms-2/files-2.1/cbaedcaa1941fc133908aefc4c325f5e/preference-1.1.0-alpha05/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,182,266,348,491,660,751",
+                        "endColumns": "76,83,81,142,168,90,79",
+                        "endOffsets": "177,261,343,486,655,746,826"
+                    },
+                    "to": {
+                        "startLines": "2,3,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,182,488,570,713,882,973",
+                        "endColumns": "76,83,81,142,168,90,79",
+                        "endOffsets": "177,261,565,708,877,968,1048"
+                    }
+                },
+                {
+                    "source": "/Users/greg/.gradle/caches/transforms-2/files-2.1/91c4638cc4295b998a60034fcde58944/navigation-ui-2.0.0/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,160",
+                        "endColumns": "104,116",
+                        "endOffsets": "155,272"
+                    },
+                    "to": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "266,371",
+                        "endColumns": "104,116",
+                        "endOffsets": "366,483"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/greg/Documents/GitHub/campmeeting/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sn-rZW/values-sn-rZW.xml",
+            "map": [
+                {
+                    "source": "/Users/greg/Documents/GitHub/campmeeting/app/src/main/res/values-sn-rZW/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "61",
+                        "endOffsets": "112"
+                    }
+                }
+            ]
+        }
+    ]
+}
